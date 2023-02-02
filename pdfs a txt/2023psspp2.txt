@@ -1,0 +1,110 @@
+Operaciones sobre las salidas y entradas de los procesos
+La clase Process dispone de métodos para que el proceso inicial
+pueda interactuar con el subprocese, o proceso descendiente, que
+ha creado:
+InputStream getInputStream()
+devuelve un objeto InputStream que permite leer la informaciédn
+del flujo de salida del subproceso,
+InputStream getErrorStream()
+igual que el anterior con la salida producida después de un
+error durante la ejecucidén del subproceso.
+OutputStream getOutputStream/()
+devuelve un objeto OutputStream que permite escribir
+informacién en el flujo de entrada del subproceso, de esta
+forma el proceso inicial puede enviar datos al subproceso.
+void destroy ()
+elimina el subproceso
+int exitValue()
+devuelve el valor de salida del subproceso
+Boolean isAlive()
+el resultado que devuelve true/false informa de si el
+subproceso estd “vivo”, no ha finalizado.
+El subproceso creado de esta forma no tiene consola (teclado y
+pantalla), y las operaciones de entrada/salida sobre el subproceso
+se realizan a través del proceso inicial mediante los métodos de
+la clase Process indicados antes getInputStream, getOutputStream y
+getErrorStream.
+Ejemplo
+Para recoger datos de la salida del subproceso, se utilizard el
+método getInputStream() del objeto proceso. El método devuelve un
+objeto de clase InputStream, y se puede utilizar el método read ()
+Si se quieren recoger los mensajes de error se hace lo mismo con
+getErrorStreamn()
+A continuacién, se indica, utilizando una especie de pseudocéddigo,
+céme se recogeria la salida de un subproceso desde el cédigo del
+proceso inicial.
+- crear un objeto de la clase ProcessBuilder,
+- crear un objeto de la clase Process utilizando el método
+start () disponible para el objeto anterior,
+- crear un objeto de la clase InputStream utilizando el método
+getInputStream() disponible para el objeto anterior,
+- utilizar el método read(}, disponible para el objeto anterior,
+Para enviar datos a la entrada de un proceso se utiliza el método
+getOutputStream() de la clase Process. Su funcionamiento es
+andlogo al de getInputStream(), pero en vez del método read() se
+utilizard el método write().
+A veces es necesario que el proceso inicial finalice después del
+subproceso generado. El método waitFor() de la clase Process, hace
+que el proceso inicial espere hasta que finaliza el procesc hifjo,
+y devuelve el estado de salida del subproceso.
+La clase ProcessBuilder dispone de algunos métodos que se pueden
+utilizar también para conocer informacidén tanto del sistema
+operativo como de la linea completa que ha generado el subproceso.
+environment ()
+devuelve un objeto con las variables de entorno del sistema
+operativo, son las variables que puede utilizar el subproceso.
+command ()
+devuelve una lista con los argumentos del proceso definido en
+el objeto ProcessBuilder.
+EERE EE EERE EE EE EEE EEE EEE EEE EEE EEE
+Siguiendo con las operaciones sobre las salidas y entradas de los
+procesos, la clase ProcessBuilder dispone de métodos con los que
+se puede redireccionar la salida, entrada y el error estandar a
+archivos.
+Son los métodos: redirectlInput(); redirectOutput();redirectError()
+Los métodos anteriores admiten como pardmetro tanto objetos de la
+clase File como de la clase Redirect.
+La clase Redirect dispone de unos valores predeterminados con el
+siguiente significado:
+INHERIT
+el subproceso hereda los origenes y destino de entrada vy
+salida del proceso inicial,
+DISCARD
+la salida del subproceso se descarta, algo asi como “> nul" en
+windows, o > “/dev/null" en linux,
+PIPE
+Situacién por defecto, la salida y entrada del subproceso se
+conecta al proceso a través de una tuberia.
+Una forma de crear objetos de la clase Redirect es como sigue:
+objetoRedirect = ProcessBuilder.Redirect.un_método() ;
+Los métodos disponibles son: to(objetoFile); append{objetoFile};
+from (objetoFile);
+Los dos primeros métodos envian la informacién al archivo. Si el
+archivo existe, el primer método sobrescribe el archive, y el segundo método afiade la nueva informacidén a la que ya existiera.
+El ultimo método recoger la informacidén de un archivo.
+Las posibilidades anteriores permiten especificar con detalle y de
+forma individual en qué archivos se almacenard la salida, tanto la
+normal como la de error, asi como qué archivo se utilizara para
+suministrar informacién de entrada al subproceso para su
+funcionamiento.
+Ejercicios
+Realizar dos programas java (_0S5term.java y _0O6term.java) que cada
+vez que se procesan muestran en la salida de netbeans la lista de
+directorios y archivos del directorio del perfil del usuario. Los
+programas deben utilizar distinta forma de enviar la salida del
+comando al terminal.
+Realizar tres programas java (_07arch.java, 0O8arch.java y
+_0%arch.java) que cada vez que se procesan almacenan la misma
+lista del ejercicio anterior en un archivo. Los programas deben
+utilizar distinta forma de enviar la salida del comando al
+archivo.
+Realizar un programa java _lOlanzador.java que al procesarse lanza
+uno de los programas anteriores.
+Realiza un programa java _11Sort.java que genere un archivo
+{(ArchSinOrden.txt) formado por 10 lineas, en cada linea habrd una
+palabra de 4 a 10 letras al azar. A continuacién, el programa
+utiliza el funcionamiento de sort para ordenar el contenido del
+archivo anterior y almacenar el resultado ordenado en otro archivo
+llamado (ArchConOrden.txt). Nota: el comando sort ordena
+alfabéticamente las lineas que se le proporcionan ya sea desde la
+entrada estandar, desde una tuberia, o contenidas en un archivo.
