@@ -1,6 +1,2 @@
 -monitorización
--Odoo models .py 
--ppss05
--add penúltima + última
--Odoo Completo
--plan de Empresa
+-pruebas mexico en la 100 
