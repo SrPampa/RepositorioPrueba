@@ -1,2 +1,5 @@
 -monitorización
 -pruebas mexico en la 100 
+-fallo de outlook llevárselo a Dani
+
+- te falta cambiar las variables de entorno con la ruta que has creado para zona reserba y para impex en el a_test 
