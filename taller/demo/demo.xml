@@ -1,0 +1,18 @@
+<odoo noupdate="1">
+    <data>
+
+       <record id="clientes_0" model="taller.clientes">
+            <field name="nombre">Miguel</field>
+            <field name="apellidos">García Rufo</field>
+            <field name="dni">708854213D</field>
+        </record>
+
+          <record id="Vehiculo1" model="taller.vehiculo">
+            <field name="matricula">12345M</field>
+            <field name="modelo">568</field>
+            <field name="marca">Mercedes</field>
+        </record>
+
+
+    </data>
+</odoo>
