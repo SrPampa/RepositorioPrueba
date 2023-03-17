@@ -1,6 +1,1 @@
--monitorización
--Odoo models .py 
--ppss05
--add penúltima + última
--Odoo Completo
--plan de Empresa
+
