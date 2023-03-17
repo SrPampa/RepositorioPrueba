@@ -1,0 +1,14 @@
+﻿{
+	"LOG_FIELD_NAMEPROCESS": "RPA_PROCESS",
+	"MAX_SYSTEM_EXCEPTIONS": "3",
+	
+	
+	"PATH_HISTORICO": "C:\\Users\\6002291\\Documents\\UiPath\\RPA_PROCESS\\Data\\Input\\Historico.xlsx",
+	"CARPETA_SALIDA" : "C:\\Users\\6002291\\Documents\\UiPath\\RPA_PROCESS\\Data\\Output",
+	"CARPETA_DESCARGAS" : "C:\\Users\\6002291\\Downloads",
+	
+	"USER_MAIL": "serviciorpagem@iberdrola.es",
+	"DESTINATARIOS_MAIL": "soporte_rpa_up_iberdrola@viewnext.com",
+	"REPORT_BODY_KO": "El proceso ha detectado alguna excepción durante el proceso",
+	"REPORT_BODY_OK": "Proceso terminado con éxito "
+}
