@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c2xLvKJVWMt7W8siMa1pBGHkQGo1tVQLTQakwLj0keTrsROYYzMTiGe3atYpheRzwFY/W+x16Xxjth3tjjcoUw==",
+  "dgSpecHash": "QohtggHmfD4gYujyH7aBBGf2PySkjLi1y1B2SICAMkIxL6ORuOO36S5XCEPSg0QA//l/xKBnEschdC2JdeOgfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\6002291\\Desktop\\Viewnext\\CurrentProyect\\RPA_EMPTY_READY_FRAMEWORK\\.local\\",
+  "projectFilePath": "C:\\Users\\6002291\\Desktop\\conectiongit\\RPA_EMPTY_READY_FRAMEWORK\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\6002291\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\6002291\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
