@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+
+    <h1> ROLL DA DICES </h1>
+    <button id="aniadir-jugador" onclick="aniadirJugador()">Añadir Jugador</button>
+    <br>
+    <div id="victoria">
+        <h2 id="ganador"></h2>
+        
+        <button onclick="reiniciar()"> REINICIAR JUEGO </button>
+    </div>
+    <div id="div-dados">
+        <!-- <div class="sub-dados sub-dados-1">
+            <img id="dice-1-1" src="img/diceMagenta1.png" alt="">
+            <img id="dice-1-2" src="img/diceMagenta1.png" alt="">
+            <button onclick="rollThaDices(1)">Roll tha dice</button>
+        </div> -->
+    </div>
+
+    <button id="mode" onclick="cambiarModo()">
+        <!-- <img id="mode-icon" src="img/moon.png" alt=""> -->
+    </button>
+    <div id="normas">
+        <h2>Reglas y Puntuaciones</h2>
+        <p class="norma" id="norma-1"> <b>#1</b> El jugador en su primer lanzamiento debe obtener una suma de 7 o 11
+            puntos con los dados.</p>
+        <p class="norma" id="norma-2"> <b>#2</b> Se pierde si se obtiene un 2, 3 o 12. </p>
+        <p class="norma" id="norma-3"> <b>#3</b> Cuando sale cualquier otro número (4, 5, 6, 8, 9 o 10) este se
+            convierte en el número de puntos.</p>
+        <p class="norma" id="norma-4"> <b>#4</b> Se tiran los dos dados hasta que:</p>
+        <p class="norma" id="norma-4-1">     -Salga el <b>número de punto</b></p>
+        <p class="norma" id="norma-4-2">     -Salga el <b>7</b> en este caso pierde el jugador</p>
+
+        <h2>Cómo Jugar?</h2>
+        <p> Mantén pulsado el botón para hacer girar los dados</p>
+        <p class="norma" id="norma-5"> Si te quedas corto no cambiará el valor del dado...</p>
+        <p>Si queréis jugar varios, pulsad el botón de añadir jugadores</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

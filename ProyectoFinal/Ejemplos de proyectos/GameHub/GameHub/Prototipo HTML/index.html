@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/NoFondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/user.css">
+    <title>GameHub</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="img/NoFondo.png" alt="">
+            <ul>
+                <li> <a href="index.html"> INICIO </a></li>
+                <li> <a href=""> GAMES </a></li>
+                <li> <a href=""> NEWS </a></li>
+                <li> <a href=""> ABOUT US </a></li>
+            </ul>
+        </header>
+        <div id="user-interface">
+            <div id="cerrar-interface">
+                x
+            </div>
+
+
+            <img id="user-img" src="img/usuario.png" alt="">
+            <div id="user-content">
+                <h3 id="login" class="pointer">INICIAR SESIÓN</h3>
+                <h3 id="register" class="pointer">REGISTRARSE</h3>
+            </div>
+            <div id="forms">
+
+                <div id="login-form">
+                    <form action="C/c_auth_form.php" method="POST">
+                        <input required placeholder="user@anymail.com" type="mail" name="correo" id="correo">
+                        <input required placeholder="contraseña" type="password" name="pass" id="pass">
+                        <button name="action" value="login">ENVIAR</button>
+                    </form>
+                </div>
+
+                <div id="register-form">
+                    <form action="C/c_auth_form.php" method="POST">
+                        <input required type="text" name="dni" id="dni" placeholder="DNI">
+                        <input required type="text" name="direccion" id="direccion" placeholder="DIRECCION">
+                        <input required type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <input required type="email" name="correo_r" id="correo_r" placeholder="user@anymail.com">
+                        <input required type="password" name="pass_r" id="pass_r" placeholder="contraseña">
+                        <button name="action" value="register">REGISTRARSE</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <main>
+            <div class="game-test">
+
+                <div id="test-1">
+                    <img src="img/game1.png" alt="">
+                    <h3><a href="game.html">Arkanoid</a> </h3>
+                </div>
+
+                <div id="test-2">
+                    <img src="img/game2.png" alt="">
+                    <h3><a href="game2.html">Roll da Dices</a> </h3>
+                </div>
+
+        </main>
+
+
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/user.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(177, 152, 63);
+    transition: background-color 1s;
+}
+
+h1 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#aniadir-jugador {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 20em;
+    background-color: blanchedalmond;
+    border-right: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.486);
+    transition: box-shadow 0.5s, top 0.5s;
+}
+
+#aniadir-jugador:hover {
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.486);
+
+}
+
+#aniadir-jugador:active {
+
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.486);
+}
+
+
+
+img {
+    position: relative;
+    transition: transform 0.2s;
+}
+
+#div-dados {
+    width: 70%;
+    height: 70vh;
+    float: left;
+}
+
+#mode {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none;
+    background-image: url("../img/moon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    display: block;
+    z-index: 99;
+    transition: transform 0.2s, background-image 0.2s;
+    cursor: pointer;
+}
+
+#mode:hover {
+    transform: scale(1.2);
+}
+
+.sub-dados {
+    padding-bottom: 10px;
+    width: 33%;
+    float: left;
+    margin: auto;
+}
+
+.sub-dados img {
+    padding: 10px;
+    width: 50%;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.sub-dados button {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.roll {
+    position: relative;
+    border: none;
+    padding: 5px;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.421);
+    cursor: pointer;
+    top: 0px;
+    transition: top 0.5s, box-shadow 0.5s;
+}
+
+.roll:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.694) !important;
+    top: 0px !important;
+}
+
+.roll:hover {
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.421);
+    top: -2px;
+}
+
+.disabled {
+    background-color: rgb(180, 180, 179) !important;
+    border-bottom: 3px solid black !important;
+    border-right: 3px solid black !important;
+    color: black !important;
+}
+
+.roll-1 {
+    background-color: rgb(126, 82, 167);
+    border-bottom: 3px solid rgb(73, 34, 109);
+    border-right: 3px solid rgb(73, 34, 109);
+}
+
+.roll-2 {
+    background-color: rgb(61, 181, 65);
+    border-bottom: 3px solid rgb(43, 122, 46);
+    border-right: 3px solid rgb(43, 122, 46);
+
+}
+
+.roll-3 {
+    background-color: rgb(197, 80, 80);
+    border-bottom: 3px solid rgb(167, 60, 60);
+    border-right: 3px solid rgb(167, 60, 60);
+
+}
+
+@keyframes roll {
+    0% {
+        position: relative;
+        top: -5px;
+    }
+
+    10% {
+        top: -8px;
+    }
+
+    20% {}
+
+    30% {}
+
+    40% {}
+
+    50% {}
+
+    60% {}
+
+    70% {}
+
+    80% {}
+
+    90% {}
+
+    100% {
+        top: 0px;
+    }
+}
+
+#normas {
+    margin-top: -40px;
+    background-color: rgba(255, 255, 255, 0.397);
+    position: absolute;
+    top: 18%;
+    right: 2%;
+    width: 25%;
+    height: 80vh;
+}
+
+#normas h2 {
+    text-align: center;
+}
+
+#normas p {
+    padding: 10px;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.roll {
+    width: 100%;
+    font-size: 1em;
+    margin: auto;
+}
+
+.puntos {
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+}
+
+.puntos-1 {
+    color: purple;
+}
+
+.puntos-2 {
+    color: greenyellow;
+}
+
+.puntos-3 {
+    color: red;
+}
+
+#victoria {
+    position: absolute;
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(165, 95, 67);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.2s;
+    border-radius: 2em;
+}
+
+#victoria h2 {
+    font-size: 300%;
+    position: relative;
+    top: 10%;
+}
+
+#victoria button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.472);
+    border: none;
+    width: 20%;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    transition: top 0.5s, box-shadow 0.5s;
+}
+
+#victoria button:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.694) !important;
+    top: 21% !important;
+}
+
+#victoria button:hover {
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.421);
+    top: 19%;
+}

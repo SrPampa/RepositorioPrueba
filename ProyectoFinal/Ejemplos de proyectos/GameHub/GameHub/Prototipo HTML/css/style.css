@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(113, 68, 143);
+    padding: 20px;
+}
+header{
+    display: grid;
+    grid-template-areas: "img list";
+    grid-template-columns: 30% 70%;
+    margin-bottom: 20px;
+}
+header img{
+    grid-area: img;  
+    max-width: 80px;  
+}
+header ul{
+    list-style:none;
+    grid-area: list;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+}
+header ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.game-test{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.game-test img{
+    max-width: 80%;
+}
+
+#test-1, #test-2,#test-3{
+    width: 50%;
+    text-align: center;
+}
+
+@media (min-width:1200px){
+    .container{
+        margin: auto;
+        width: 60%;
+        padding: 20px;
+    }
+}

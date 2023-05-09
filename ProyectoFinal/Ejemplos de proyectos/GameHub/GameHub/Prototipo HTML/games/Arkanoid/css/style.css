@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#wrapper {
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid yellow;
+}
+
+#ladrillos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: 40vh;
+    border: 1px solid orange;
+}
+
+#player-area {
+    width: 100%;
+    height: 20vh;
+    /* border: 0px solid red; */
+    position: relative;
+    bottom: -29.8vh;
+    display: flex;
+}
+
+#player {
+    position: relative;
+    height: 1vh;
+    width: 15vw;
+    right: 0px;
+    /* left: 40vw; */
+    background-color: brown;
+    justify-self: center;
+    align-self: center;
+}
+
+.bola {
+    top: 0px;
+    /* left: 52vw; */
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+    background-color: white;
+    border-radius: 100vh;
+}
+
+
+.ladrillo {
+    width: 10%;
+    height: 4vh;
+    background-color: rgb(82, 149, 158);
+    border: 1px solid black;
+}
+
+.mejora {
+    background-color: rgb(72, 148, 78);
+}
+
+.empeora {
+    background-color: rgb(168, 94, 94);
+}
+
+.masbola{
+    
+}
+
+
+.drop{
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+}
+
+.ladrillobola{
+    background-color: aliceblue;
+}
