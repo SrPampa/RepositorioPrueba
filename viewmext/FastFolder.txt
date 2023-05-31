@@ -1,0 +1,6 @@
+rutas archivos fast -->
+	sistema electrico:
+U:\DESCARGA_FICHEROS_FUNDAMENTA\Terna
+	posicion_abierta, garantias y liquidación:
+\\gemay-dt\h_licom\MEFF\VALORACION
+RPA_BME_DESCARGA_RESUMEN_LIQUIDACIONES

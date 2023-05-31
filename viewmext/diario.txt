@@ -1,0 +1,384 @@
+-Primera reunión- 
+departamentos = practica:
+subpractica "automesion"
+
+horario: de 9 a 18 
+calendario laboral en la segunda pestaña de la intranet
+tarjeta restarante con app al movil
+
+cuarta pestaña "Área profesional": registro de jornada para fichar con la pass de la intranet (tiene video explicativo)
+
+tambien en el area profesional está lo que llaman "TeRe" para incidencias
+gestión de viajes con sus respectivos gastos también está ahí
+
+-Formación y desarrollo: ahi una vez que somos trabajadores tiene para subir un curriculum para buscar habilidades específicas. 
+
+Ahí están los cursos, les mandan un correo a nuestro tutor para que apruebe que lo hagamos
+
+portal de vacantes para poder ver que cosas hay disponibles por si no nos gusta en que tecnología estamos poder cambiarnos a alguna vacante de otro proyecto (hay muchas)
+
+PeM : persona asignada (estilo tutor) 
+
+RAQUEL RODRIGUEZ SANCHEZ
+-fin primera reunión-
+
+11/01/23
+primer contacto con el ecosistema de UiPath
+instalación de UiPath Studio 
+logeo en la automation cloud y agregado un nuevo workspace y agregado a Adrián como Automation Developer
+Creación de un proceso en Studio (un hola mundo) y publicado en el Orchestrator para intalarlo y ejecutarlo con el UiPtah Assistant
+Completar el módulo
+----parada a comer----
+	check: al crear un proceso en el tutorial siempre aparece la compatibility por defecto windows-legancy pero en la app real aparece solo windows y probé pero no funcionaba bien. Diferencia y recomendaciones. 
+Buscando esa duda también me he registrado en el foro
+Done
+
+12/01/23
+Cambio de sitio, colocacion de la pantalla y el escritorio nuevo.
+Creacion del primer proceso automatizado con el correo...
+Error nada más empezar porque no se vincula la app de outlook de mi ordenador, voy a hacer el descanso y dejarle el ordena al de sistemas para que me lo solucione.
+Solucionado lo del correo (problema del internet de la oficina) con el wifi del movil todo ok y una vez que he entrado enla intranet todo solucionado. 
+----parada a comer----
+He creado mi primera automatización recogiendo mails de outlook y almacenando xml en un folder. A por la segunda parte. 
+Ahora recogo el valor de una celda de excel en una variable
+Me detengo a darle permisos a firefox para que pueda usar la extensión de UiPath
+Consigo automatizar todo y pasar por a un borrador del outlook un email con los excel procesados adjuntos. Detecto un pequeño fallo en el excel (el descuento no se resta sino que se suma). Esperaré a terminar el módulo a ver si es fallo o trampita que luego modifican ellos. 
+Termino por hoy
+
+13/01/23
+Sillas nuevas en la oficina, durante la mañana nos darán la que nos regalan para casa de las viejas.
+Terminado el modulo 2; un café y voy a por el 3.
+Ya está la silla en el coche. Modulo teórico de la estructura del RPA completado.
+Manejo de variables, recordar actividad assing para "declarar" variables. Practica de prubea sencilla. Reinicio el ordenador que me lo está pidiendo Windows y descanso la vista. Luego un ratito más de este módulo y a comer.
+----parada a comer----
+(sin rellenar) recuerdo problemas con la practice 2 Invoke Workflow File, en el video tutorial funcionaba perfectamente pero en el mío cambiaban varias cosas y no funcionaba del todo bien, me ayudó Ángel pero no conseguimos muchos frutos. Al ser viernes la tarde no había nadie ni ganas de trabajar, retomo hoy lunes que estoy escribiendo esto... 
+
+16/01/23
+He rellenado lo de la tarde del viernes porque no lo había hecho, retomo en la practica que no funcionaba... o mejor no, ahí queda para el futuro, si fallo en el test la rehago, sino pa'lante que puede haber varias formas de resolver el fallo que me daba con los argumentos y las variables. 
+En el siguiente modulo es ver videos de como se usan las sentencias tipicas de programación (if, switch, while...), la única un poco más desconoceida para mi es "parallel" que hay secuencias que se ejecutan en paralelo (tiene detalles que no he comprendido bien pero ya iré viendo). 
+Paradita a comer un pincho al bar
+Comienzo con la parte de practicas de este módulo.
+Primera practica completada con éxito, practicamente igual a la de la solución
+En la segunda practica he tenido un problemilla con la asignación de una variable en el for each, no sonseguia crearla correctamente y por ello después no me dejaba hacer el Substring
+Tras pegarme un poco con UIPathStudio consigo que funcione fijandome en la solución (problemas encontrados: cuando creas una variable que no reconoce su tipo, aunque luego la modifiques la actividad seguirá lanzando el error aunque ya esté bien -preguntar si existe un F5 en UiPathstudio- solución: eliminar la actividad y volver a crearla desde 0 con la variable ya declarada).
+----parada a comer----
+después de esperar a ruth media hora y a miguel otro ratito paré a las 14 y son las 15:44 ... buena parada con comida que mati estaba lleno y cafecito al llegar
+Modulo de explicacion de los dos diseños de desarrollo con los que cuenta uiPtah, el casic y el modern. Me estoy muriendo de sueño y me está costando mantener los ojos abiertos... si sigo igual tendré que subir a por otro café
+1/3 modulos del de 5h completado. A por uno más de 2h a ver si lo acabo en 1 que me queda aquí, sino para mañana
+Son menos 5 y acabo de terminar un video de 25 minutos que usaba DoubleUI app para hacer pruebas, estoy evitando instalarlo pero lo mismo no me queda más remedio si quiero hacer pruebas con ello... de momento con los videos me vale. Hasta aquí por hoy.
+
+17/01/23
+primeros videos de la mañana, no recordaba el úlitmo y empecé por ese, se me caian los ojos y he ido a por un café y a dejar la fiambrera a la nevera. No he ido haciendo los videos para ahorrar tiempo que los otros dos de RPA han acabado ya el curso y a mi me falta más de la mitad (soy el único con UiPath). 
+Todos estos eran de usar el recording y cosas automatizadas osea que sin más sencillas de hacer sin realizar la practica. De todos modos uno de verificación voy a hacerlo que sino no gano práctica con el UiStudio
+Parece ser que cada vez que me pongo a hacer algo, algo falla y pierdo muchísimo tiempo... pero bueno, al menos de los errores aprendo más que solo viendo los videos. Paso al siguiente porque el getPasword no entiendo aún como funciona y pasando de hacerme una cuenta en la pagina esa para una sola prueba, si tengo que hacermelá después para otra pues repito esta parte.
+En breve me voy a tomar una frutita y un kitkat y paro un ratito... aunque mucho no he avanzado.
+Completada la practica de extraer datos a una tabla
+	duda: no se cómo modificar la recolección de datos sin empezar de 0, después no reconoce lo que ya reconocía antes y solo me deja modificar las propiedades... muy tedioso si quieres solo cambiar o añadir un detalle
+----parada a comer----
+He comido en la parte de arriba un tapper que he traido acompañado de ruth. En el grupo de wass del insti me han pedido que le escriba a Baldo con la petición de las clases de los miercoles poder hacerlas online. Ya está enviado. 
+Adrián a comenzado el curso de UiPath, espero que no me adelante muy rápido, debo acabar antes que él si o sí. 
+En la parade de ir al baño me lavo los dientes, antes voy a ver si consigo terminar la segunda practica y acabo el modulo en el que estoy.
+He terminado la practica del modern, ahora me toca el clasic pero no me convence para nada porque al parecer es para lo mismo pero como se hacía antes...
+Pongo estos videos de clasic en x2 porque hace lo mismo que en los modern pero con el modo clasic y por partes... para ello cambia a versiones anteriores los paquetes y desinstala los que no usa (en dependencies).
+Lo paso fatal, se me caen los ojos por la mañana, se me caen después de comer, se me caen a ultima hora... no se si es que tengo que dormir 10 horas o qué pasa :((
+De esto del clasic descargo las soluciones de las practicas y las miro porque no veo factible hacerlas... espero no arrepentirme pero siempre podré volver a hacer lo que sea.
+Completado justo a las 18:00 hora de irse
+
+18/01/23
+Otro día con un sueño de muerte y al ser miercoles hay que ir a clase de baldomero... increible pero cierto.
+Mañana bastante productiva porque he hecho el robot para Ana para mandar sus emails y adjuntarlos. 
+He visto las mil formas de trabajar con Excels y estoy revisando las practicas que acabaré después de comer en mati que estoy malito con mucha tos.
+----parada a comer----
+Medio menú donde mati (bacalao rebozado muy rico), vuelta al curro.
+Terminado el quiz del modulo de los excels (1er intento 70%, 2o al 90%), he descargado los proyectos con las soluciones y si necesito excel para algo seguro que me toca revisarlos... A ver si los siguientes son más entretenidos
+Ahora veo el tratamiento de String, hoy lo he dedicado a la practica de los emails con archivos adjuntos, no he avanzado mucho con el curso pero esta semana le doy cañita.
+Lo peor de todo es que en 15 min te vas pero tienes que ir al instituto a ver a Baldoperro.
+
+19/01/23
+Hoy no has dormido mucho y cenaste charrito del cual te has traido las sobras.. dolor de estómago y sueño, a ver que tal se portan los cafés que vas a tener que tomarte
+Hoy a darle caña al curso, a ver si avanzamos mucho y vamos quitándonoslo de encima. A por las prácticas de String
+Guardo los proyectos con la solución en carpeta de String, he hecho la forma más sencilla y el resto las he mirado.
+Modulo completado, me queda como la mitad pero ya voy a buen ritmo. Me ha surgido en este la duda de invoke methods, puedes invocar cualquier metodo de la lista de .NET de microsoft al parecer... 
+Descansito para el café y a ver si funciona la máquina que hoy parece que se comerá tarde.
+----parada a comer----
+He "hecho" el modulo de los selectores y estoy con el de los descriptores pero no me he enterado de nada y no voy a revisarlo... ya quiero acabar el curso que se me está haciendo eterno. 
+Muerte y no avanzo, son menos cuarto, me voy
+
+20/01/23
+Que bien que ya es viernes, hoy he dormido mucho y vengo con mucha energía, me has servido para acabar uno de los modulos de descriptores y hacer la practica, incluso he hecho la segunda parte de la practica antes de leerla jeje me siento muy listo cuando hago esas cosas. 
+Hoy ha habido un choque frontal en el cambio de rasante al salir de la rotonda hacia aldeatejada.
+He conocido a Jorge que está por aquí, de mi futuro equipo en Iberdrola al parecer.
+No parece que estén las cajas de fruta hoy, me iré a comer un sandwich y luego si eso donde mati a comer, aunque he venido en coche y dije que si no vengo en bici mati no debería ser una opción. Tengo que empezar rutina de ejercicio. Hoy digo todo eso por haber dormido 12 horas... XD luego ya veremos. 
+He calculado que de aquí al viernes con hacer dos modulos al dia acabo el curso. Si acabo los dos cursos muy rápido puedo alternar con cosas de clase.
+----parada a comer----
+viernes por la tarde nadie en la oficina, terminé el quiz del módulo que me quedaba por terminar y de charleta con adri y el otro madrileño que no le gusta trabajar.
+(resumen finde): finde movido, velatorio en valladolid por la madre de la tia maría, domingo cumple de mi tia Pilar en el pueblo y agobiado con las cosas del insti y python que no funciona... voy a tener que dedicarle tiempo al salir del trabajar a las cosas de clase para poder cumplir los plazos.
+
+23/01/23
+Lunes con energía, mucho frío pero he venido en bici. Esta semana toca terminar con el curso de UiPath, con dos módulos al día vamos bien para acabar el viernes. Si me sobra tiempo intentaré avanzar con las cosas de clase.
+Esta mañana nos han dado la tarjeta restaurante con 102 eurillos para este mes. Acabará todo en bar Mati y en café.
+Try catch y excepciones tampoco consigo hacerlo sin mirar... con el scope de excel no me entero y en la solución usa el read range workflow por lo que no sé cómo sería mejor... lo ignoro y paso al siguiente para avanzar.
+Paradita a Mati para un cafecito.
+Los dos módulos de hoy "terminados", aprobado el quiz pero sin mucha idea de la práctica, los veo poco útiles (eran de logs y handler exceptions). Voy a ver si reviso lo de interfaces y ya después me pongo con el siguiente módulo.
+Entregado lo de interfaces... Comienzo un nuevo módulo del que intentaré las practicas después de comer 
+----parada a comer----
+Practicas con el orquestador.
+Men han mando ahora los mensajes con la formación de seguridad para entrar en el proyecto de iberdrola, hay que leer unos pdf etc y dejar enviado un email para certificar que has leido y entendido todo.
+Terminado el modulo del orquestador pero sin mucho aprendizaje
+Leyendo los documentos de Iberdrola, me queda una hora, intentaré acabar de leerlos y mañana ver si puedo hacer lo de la impresora (necesito imprimir, firmar y digitalizar un documento).
+
+24/01/23
+Al final foto a la firma en wass y pegar en el documento para enviarlo. Enviado
+Seguimos con los últimos módulos de UiPath, a ver si me entero de algo que ya no retengo mucho.
+Otro diploma más por hacer el quiz sin practicar nada.
+Tengo una reunión a las 12; voy a tomarme una frutita antes
+-REUNIÓN-
+Isabel y David van a explicar una cosita de un Robot para naturgy
+Un robot para poder aprovechar las licencias y que no estén "Parados" ninguno de ellos.
+Están usando Blue Prism osea que 0 idea en cuanto al factor visual de compartir pantalla. 
+participantes (por ir quedandome con los nombres): DAVID ESCRIBANO PLAZA; ISABLE MARIA FUNTES DORADO; GABRIEL RUIZ SACO; DANIELA MUÑOZ LOPEZ; DAVID ROJAS DURAN; JORGE MARTIN RODRIGUEZ; MIKEL LANA ALDAZ; JESUS BARRERA LUNA.
+-FIN REUNIÓN-
+Módulo de explicaciones del tratamiento de los emails con UiPath, muy completo pero me da que también me lo veo sin hacer las prácticas. Uno de los detalles en los que me he fijado es que en propiedades para el uso de los emial hay que poner en "host" el puerto que usamos y el servidor que se usa para distintas cosas, como el envío de o la lectura de distintas cositas con gmail o outlook... VOLVER A ESTO SI QUIERES LOS ZIP DE LOS EMAILS
+Hoy parece que nadie va a Mati a comer, y yo no me he traido comida... me tocará ir solico. 
+----parada a comer----
+Conozco a Chema, jefe de Ángel, lleva dos año en viewnext y al parecer es top sueldo. Más joven que yo.
+Al final si que comieron todos ahí.
+Al parecer da un error AndroirStudio lo ha dicho Manuel por wass y efectivamente no funciona algo... estoy intentando crear un proyecto nuevo para hacer el de los intentimplicitos. Cambiando la verisón como te recomienta el error que da a la 33 funciona el hello world, esperemos que no nos dé mucha más guerra cuando haga la app final.
+Menuda tarde que les he hecho a viewnext. Del trabajo no he tocado creo que nada. Solamente este diario. He aprovechado el día de hoy para hacer dos modulos de uipath, hacer y entregar la practica de interfaces y la ultima de android resolviendo la incidencia de la actualización a la version 33 esa del grandle. Me faltan 45 minutos pero me da que para lo que queda voy a ver si ha llegado el diploma del ultimo módulo y dejo iniciado el siguiente.
+
+25/01/23
+Hoy ha costado más que de costumbre levantarse, se acumula el cansancio de la semana (la bici y dormir poco). Hoy es miércoles y toca ir a ver a Baldoperro de 7 a 9, a ver si se hace leve que iré en bici igual.
+Con un poco de dedicación hoy acabo el curso de UiPath, aunque si me veo saturado empiezo lo de Android.
+Ya está Adrián que ha estado malo estos dos días.
+La parte del pdf la voy a hacer completa, probando las cosas de los videos etc. (esto ha fracasado porque uipath no reconoce elementos internos en los pdfs)
+Estoy con la parte de testing que es la última y está por la oficina Raquel. Muy maja y simpática, mejor impresión que en la entrevista. Está por aquí porque los de Iberdrola están también visitando la empresa.
+Yuhuuu, curso completado, aunque he de decir que no tengo mucha idea de muchas cosas. Veré si hay alguno por la plataforma en español para repasar. De momento me da que hasta nuevo aviso con android.
+----parada a comer----
+Comiendo rapido y corriendo con los de testing (no vuelvo) y distraido con andoroid que no avanzo.. mañana más
+
+26/01/23
+Jueves, de momento sin tarea oficial. Suerte para intentar avanzar con cosas de clase. Voy a ver si es rapidito lo de procesos y lo envío para centrarme en hacer la app de android que es lo que más tiempo me va a consumir.
+Me acaban de incluir en los grupos de mi equipo, con ello voy a tener todos los días a la 13:00 el daily de Iberdrola, así me iré enterando de las cosas.
+Después del pincho he estado casi todo el tiempo con procesos, ma falta poquito y a ver si lo dejo entregado antes de irme a comer.
+-PRIMER DAILY-
+	Comparten un excel con las partes de las que hablar del proyecto... Daniela al parecer está ahora con Auditoría, nosqué de UKA o algo así. Con UiPath también Daniela que al parecer buscará ayuda con Mikel. 
+	Mikel Pamplona, David Oviedo creo que han dicho. Jorge aquí en la ofi. Raquel teletrabaja desde casa en Salamanca y Daniela desde Madrid. (y Adrián a mi lado).
+No consigo que funcione lo del directory() de procesos, pero creo que así se lo voy a mandar. Enviado
+----parada a comer----
+Ahora voy con andorid todo el tiempo que pueda hasta que reciba noticias de Raquel o Daniela. Mañana por la mañana le pediré a Daniela si en algún ratillo que tenga medio libre me puede dejar ver como trabaja. 
+
+27/01/23
+Hoy ya estamos en el grupo de Iberdrola y parece que son interactivos. Yo sigo con Android hasta nuevo aviso.
+Tras muchas horas con Android Studio consigo avanzar y va teniendo forma. Voy a ir redactanto el proceso que sigo para enviarle el resumen a Javi.
+----parada a comer----
+Tarde de Android y lo que dije de ir redactando no lo hice. 
+
+30/01/23
+Lunes, el finde productivo en cosas casera de recoger y limpiar pero no mucho del resto. Andriod sin tocar, python practica 2 terminada pero add y pps todo fatal porque no se hacerlo. Si no me mandan nada hoy habrá que terminarlo aquí (intentarlo al menos).
+En el daily ya nos están mandando cositas para hacer, necesitamos entrar con el pulse a la zona segura y ya entrar en la vpn de iberdrola, a ver si conseguimos adrian y yo saber que pass meter en la zona segura.
+Me he conectado al pulse y las credenciales y esas cosas con la app, he cambiado mi pass de zona segura a (lo que está en tu admin de paswords) y parece que todo se está encaminando
+----parada a comer----
+reunion con daniela: tarea sencilla para crear un proceso de agrupacion por carpetas
+-----
+	Módulo para agrupar ficheros en año/mes Parámetro de entrada/argumento (fecha)
+	dd/MM/yyyy Revisar si existe la carpeta año y mes
+	Si existe no se hace nada
+	Si no existe, creamos carpeta año y mes TRY/CATCH
+	para que si falla me diga por qué ha fallado
+-----
+ya acabando el día, acabo esta parte y para casita. Mañana a primera hora con todo hechito
+
+31/01/23
+Me ha dejado unos cascos Sara que los mios han muerto. Mañana se los devuelvo
+Voy a darle una pasada al ejercicio simple de ayer antes de volver a hablarle a Daniela y si no contesta me pongo con procesos.
+DUDA:
+	existe algun comando para replace en uipathStudio?
+Completada y corregida la tarea con Daniela de la carpetaAñoMes. He incluido un switch para poner el nombre del mes en castellano (no en número)
+Espero a que me mande más tarea, mientras tanto voy a mirar la tarea de Odoo y lo mismo empiezo lo de ppss
+Lo de Odoo enviado. Voy a ver si hago los numeritos en paint para Android
+daily
+----parada a comer----
+tengo nueva tarea, la he estimado en muchas horas pero espero hacerla en menos. 4-5 horas, comienzas a las 16:30 aprox.
+con un par de obstaculos que superar pero mas o menos va tomando forma, mañana sigo
+
+01/02/23
+Movida con una tarea de Juanma que se ha vuelto la clase loca y he enviado un email y después otro refractandome del primero...
+He traido los cascos de Ana a ver si soy capaz de engancharlos por bluetooth, necesito saber como se llaman. 
+Vuelvo a ver si cumplo con las horas que le dije a Daniela sobre el word que me mandó.
+son las 10:35 y creo que lo tengo mas o menos, voy a maquetarlo un poco. Primer paso he tardado 3 horas útiles +-
+Después del pincho ya me escribe Daniela a ver que tal voy, le he mandado el proyecto para que le eche un vistazo a ver si me llama
+----parada a comer----
+3 y media, en una hora he quedado con Daniela para revisar lo que he hecho, voy a intentar mejorarlo un poquito
+DUDA	
+	recoger username como variable para conseguir hacer genérica una ruta a downloads
+un muy buen rato con Daniela, me ha pasado el rpoyecto modificado, hay que revisarlo y copiar las lineas útiles. mañana más
+02/02/23
+Cumple de tu abuela Cande, esta noche cenas con ella.
+Han mandando un curso de ciberseguridad, vas a crear paralelo a este diario un txt de tareas a realizar para ordenar tu trabajo diario y priorizar las cosas.
+Te urge una entrega de procesos para esta noche (y vas a cenar con la abuela) y lo que te ha mandado Daniela de pegarse un poco con el copia pega del reframework
+Una hora pegándote con la mierda de copiar y pegar sin conseguir nada más que decidir que lo rehaces en el framework directamente ...
+----parada a comer----
+Sin rendicion parace que funciona lo de uipath, eso si, sin las 17:42 y no has hecho lo de juanma
+
+03/02/23
+Le debes una tarea a Carlos, te pasó lo de juma y si no es por él no te da tiempo ni de coña
+Daniela te ha pedido revisar lo del diccionario de uipath (usar la variable de Config con paréntesis y la clave, saca el valor) y se supone que ya está.
+Hecho el programa para Daniela, el único error es una descarga de archivos temporales que no puedo regular porque no puedo ver el código interno de las activities modernas. En el reframeWork está desfasado. 
+Iba a hablar con Daniela pero no tiene tiempo la pobre. Juma ha mandado más cosas... odio infinito, voy a pasar a txt el ppt y a mirar u odoo o andorid en lo que me dice algo. (me he perdido la salida del pincho por esperar a ver si me llamaba)
+Reunión ahora si con Daniela
+----parada a comer----
+ya casi casi, tengo que controlar con scope timer tanto un mes que no está aun como un año que no está aun; practicar y ver como poner la bussnes exception
+El lunes ya lo termino
+
+06/02/23
+tras muchos dolores de cabeza pegandome con uipath por el control de las excepciones y esas cosas consigo que si no encuentra el año o el mes (aun no está habilitado en la pagina de terna) lanze un throw y pare la ejecucuión (que antes se quedaba en bucle). 
+----parada a comer----
+me ha citado Daniela a las 4 y media para revisar el proceso RPA_TERNA_SISTEMA_ELECTRICO y al parecer lo tengo que tener 100% revisado para subirlo a producción... a ver que tal jajajaja.
+llamando a las 17.14
+--- escritorio remoto > pass de lo que me ha pasado. se abre la mauina virtual de desarrollo. voy a RPA y pero la carpeta del proceso, 
+	172.20.178.100 VMDSESRPA1 desarrollo
+	172.20.178.116 VMPRESRPA1
+	172.20.178.117 VMPRESRPA2
+	172.20.178.118 VMPRESRPA3
+	CUENTA SERVICIO: GESEN\S002019
+	CONTRASEÑA: gesen2019
+recordar todo esto.. estás volviendo a conectar para cerrar las cosas .. y te vas que son las 18:00
+
+07/02/23
+A por las pruebas de la maquina virtual.
+Después tienes un calendario que rellenar con el color de UiPath cuando trabajes con él y apuntar los festivos de salamanca junto a las vacaciones que quieres cogerte. Y preguntar a Raquel por el día de la mudanza a ver si te corresponde.
+Al meterme en la máquina e intentar probar mi proceso peta mucho y no furrula (se queda cargando dependencies e installing packages). Le he cedido a Daniela la máquina y voy a hacer antes el curso este de ciberseguridad.
+También acabo de subir mi proyecto final de Android. (me ha dado cita para presentarla mañana 17.45 osea que salgo antes)
+He terminado el curso de ciberseguridad y mandado algunas capturas al grupo del daily que me las pidieron
+La máquina de desarrollo está solicitada y va super lenta, esta intento volver a usarla. 
+Hoy he comido platanos, dos pinchos... mucha hambre ya no tengo pero al mati que me voy.
+----parada a comer----
+no escribí nada, intentando que funcionara en la maquina de desarrollo y no funcionaba nada, creo que me ha dicho Daniela que va a tocar reahacerlo otra vez
+
+08/02/23
+Ayer al volver a casa intentaste hacer el ejercicio de add03 y casi te revientas la mano porque no funcionaba, vas a instalar mariaDB en este portatil para hacerlo aquí. lo unico que haré en el otro es lo de odoo y lo mismo lo de interfaces. 
+Daily movida con más cosas para hacer y permisos varios. Tengo la máquina de desarrollo disponible para probar a ver si funcionan las cosas.
+Como no funciona nada Daniela reinstala uipath en la maquina de desarrollo, ahora me llamará
+----parada a comer----
+No le dí margen para llamarme porque terminé lo de add03 y me tuve que ir antes para presentar la app de android que me ha pedido que le añada un menú y que se vea la tabla completa de puntuaciones.
+
+09/02/23
+Parece que la reinstalación no funcionó mucho, voy a probar con otro proyecto que me ha mandado a ver si puedo meterle la navegación y no peta. 
+----parada a comer----
+malas noticias, voy a revisarlo pero Angel ha visto un email de juma diciendo que tenemos que hacer examen porque mucha gente tiene el código muy similar en add... putadón...
+Revisado y pone que "de continuar la situación así", esperemos que no se copie mucho más la gente
+Terminas el día por hoy, mañana continúas con las actividades en modo clasico de tu día de la marmota con el terna electrico
+
+10/02/23
+Ayer por la noche ya enviaste lo de add osea que te has liberado un poco de tareas para este finde ponerle el menu y la tabla de puntuaciones a la app de Sums y avanzar con Odoo que vas a mirar a ahora fechas que lo mismo tienes que mandarlo antes de esta noche. YA ES VIERNEEEES
+Probando en la máquina vitual parece que no funciona del todo bien; problema en cerrar la ventana de edge y problema en clicar el año porque sale lo de restaurar ventanas
+----parada a comer----
+Me han echo ir a comer al macdonalds y hemos dejado tirado al buen bar mati.
+Daniela me ha dado el visto bueno para dejar un framework lo más actualizado posible y que funcione en la máquina 100 de desarrollo. 
+Me aburro y no me ha gustado tanto la idea.. voy a por cosas de clase.
+
+13/02/23
+Lunes de buena mañana, chiky estaba en casa y al pobre le he dado agua y ha vomitado 7 veces antes de que saliera yo de casa en la bici...
+La tarea que tenía de trabajo era mirar a ver que fallaba al pasar a la maquina virtual una template (el error creo que va a estar en win, hay que dejalo en legancy, pero el estilo moderno parece que sí que funciona...). Al seguir probando espero a que Daniela me diga algo, sino tengo muchas cosas que hacer de clase.
+Esta tarde en casa intentaré terminar lo de android y hacer el esquema a mano de Odoo. Ahora voy a entregar el trabajo de interfaces que hice el finde con charGPT que sino era inviable. 
+Entregado eso, ahora iba por ppss pero daniela ya me reclama para subir a producción rpa_terna_sistema_electrico
+----parada a comer----
+A reventar de comida del mati y ahora en bici me voy a morir. Hoy hemos tenido la reunion de bienvenida, algunos ya llevan aquí un año y no se la habían hecho. Daniela tiene que estar flipando porque literalmente no he tocado uipath, solo con cosas de clase.. (que menos mal porque sino ni de palo me da tiempo a hacer todo). Como son menos cuarto voy a ir rellenando el agua y preparandome para irme a casita -tengo a Ana deprimida por la estafa de 1275€ que nos hemos comido-
+Mañana más, seguro que Daniela ya me va a querer meter caña
+
+14/02/23
+Martes 9:04 voy a ver si acado ppss antes de que Daniela me mande hacer algo
+me llama daniela: serviciorpagem@iberdrola.es
+pass Gesen2019_
+	orquestador home shared automations jobs 
+	luego revisión de procesos
+	a la hora de subir hay que cerrar la sesión de uipath y se vuelve a iniciar para que salga en publicar "tenat" fuente de procesos tenant en orchesthartor 
+	nuevo procesos en orchestador add process, sdiplay name el mismo nombre del proceso
+	create, y le añadimos un trigger 
+	-resubidas, cambia la versión +1 
+
+	descarga desglose -- resumen liquidaciones -- posicion abierta
+----parada a comer----
+trabajo bien hecho, encontrado el error y fucionando. mañana subo la actualización del bugg y reviuso que archivos han quedado sin descargar. Lo dejo en las tareas a realizar
+
+15/02/23
+Miercoles, la semana se está haciendo larga. Esta tarde a ver más pisos y lo mismo a por tuppers de mi abuela. 
+Tengo que hacer lo de odoo que creo que estoy ya fuera de plazo... hoy y mañana tengo que quedarme por la noche si o sí.
+Voy a trabajar un poquito que es lo que toca.
+He creado un txt con las rutas rápidas de los archivos de destino de la máquina para agilizar la comprobación de que todo va bien
+Los procesos que he ido controlando parece que todo correcto. A ver que más tarea me mandan. De momento a comer y si no me dice nada más a hacer las cositas de ppss y add, odoo para casa que aquí no puedo hacer nada
+----parada a comer----
+Al voler la monitorización se me está haciendo aburrida... osea que twitter porque no tengo fuerzas para empezar a hacer lo de procesos ni add. Odoo toca en casa esta noche.. :(
+
+16/02/23
+Hemos visto el piso ideal para nosotros y vamos a firmar por un año ahí, 700x12 = 11400€ la ruina se viene; voy a buscar curro de fin de semana ya. Oroviejo puede ser una opción, en cuanto acabe con las cosas de clase me paso a preguntar. Último esfuerzo hasta conseguir un sueldo digno
+Sin noticis de Daniela, tengo abierta la monitorización para echarle un vistazo, voy a ver si avanzo ppss y add para el finde dedicarlo en exclusiva a odoo y a empresa... 
+----parada a comer----
+Hoy he comido solico porque me enfrasque con el proceso de mexico y ni me enteré de cuando se fue la gente... mu mal, no he aprovechado el día para nada... ahora al llegar a casa a ver si estoy motivado, me paso a por un tapper y al mercadona a por leche huevos y pan. Mañana si no he avanzado como me gustaría me pongo a hacer cosas de clase y le dan por saco al proceso este de merda.
+
+17/02/23
+Ayer sin ánimo de hacer una mierda verás que divertido hoy todo... odoo para el ultimo momento... todo lo de procesos, add y empresa. Solo falta que el de interfaces de por culo. 
+----parada a comer----
+Hoy solo estoy con cosas de clase y el lunes aquí no viene naide osea que el lunes también jeje
+
+20/02/23
+Lunes, llego algo tarde con la bici pero justo adrián se deja su mochila y llega a y 20 más tard que yo. Hoy es carnaval y están de vacaciones mucha gente, me he quedado solo y nada más entrar en la monitorización veo que están todos los procesos pendientes y solo se está ejecutando el rayito-matador... algo va mal, y no hay a mucha gente a la que preguntarle... voy a ver si se arregla solo o me voy metiendo en las máquinas a ver si hacen algo. :S
+Ya te has cargado otra máquina... el proceso de sistema electrico terna se quedó en bucle el sabado hasta hoy... liada, he tenido que escribir a alvaro el de iberdrola para que reinicie la máquina. Ya está funcionando y los procesos de la 2 también. Parece que todo se ha solucionado. 
+En el email de alvaro también me pide que revise el proceso de SOFYC IT pero no sabemos ni que robot es ese. Ahora vendrá Mario y le pregunto para que busque en producción de blueprism. 
+----parada a comer----
+mu rica la lasaña del mati, casi me dejo el movil que lo dejaba encima de la mesa y lo ha cogido javi para darmelo al salir. 
+Todos los procesos parecen que van bien, yo tengo que hacer lo de odoo :(( aquí no puedo hacerlo.
+Me escapé un poco antes del trabajo y he monitorizado la ultima hora desde casa. Mañana más y a contarle la movida de hoy a Daniela.
+
+21/02/23
+Parece que a Daniela no le ha preocupado mucho que no funcione mi terna, a ver si luego me dice algo por hacer pruebas en producción.
+Odoo parece que suspendo y empresa el miercoles a ver si acabo. Debería añadirle las cositas que me falta en el ppt
+Daniela parece que me va a mandar cositas del proceso de méjico a ver si no es mucha guerra
+----parada a comer----
+Mucho curro ahora... con postman Llamada a la api para descargar Energía Eléctrica por Zona de carga y deserializar el json que nos llegue para formatearlo a estilo excel como lo hacía la descarga normal. 
+
+23/02/23
+Ayer no vine por entragar lo de odoo y por ir a la presentación de empresa. Vuelvo al trabajito de la API
+Esta nevando mucho y podemos irnos a casa a comer y quedarnos porque le hemos llorado bastante a Raquel. Cuidado que su marido está por aquí.
+----parada a comer----
+me dormí la siesta despues de comer en el chino con ana, no tuve éxito creando las tablas 
+
+TRAS LA MUDANZA DEJO EL DIARIO HASTA NUEVO AVISO, TELETRABAJO POR BAJAS TEMPERATURAS A DÍA 1/3/23
+
+07/03/23
+Retomo el diario por manterner una rutina y en los ratos sin nada que hacer apuntar algo aquí. Ya ha arreglado la calefacción y ya a primera hora de la mañana podemos estar en manga corta tan agustito en la oficina, con buen internet y toda la pesca. Vuelta a las mañanas productivas. 
+En cuanto a la vida personal sigo esperando a que me instale DIGI la fibra en la casa nueva (calle velazquez n6 4ºB), he decidio ir a esquiar este finde que Ana está en Inglaterra con un grupito de chavales. A ver si puedo recibir llamadas de DIGI que mi movil desde que lo he actualizado no funcionan bien las llamadas ordinarias (aunque puede ser la cobertura de la casa nueva, no estoy seguro)
+Hoy al salir de currar (lo mismo me escapo algo antes), me voy al pueblo a por las cosas de ski a ver que tal entran en el peugeot. Le he escrito a la estación de buses y me ha respondido que escriba a avanzabus que a ello voy. 
+Daniela nos ha mandado ya trabajito, documentar lo de sistema datos terna con su word y meterlo en el excel AMS. 
+Además tengo que probar lo de mexico en la 100. 
+
+----- fin del diario sustituido por las hojas de cicerón ?? --- seguiré poniendo aquí cositas si me aburro pero priorizaré cicerón al que ya tenemos acceso. 
+
+22/03/23 
+xx recursos por si un día no sabes que poner en el cicerón:  usar el orquestador propio de la versión community para conseguir las credenciales que estarán en el orquestador de 	producción
+
+xx arreglo del outlook en app web 
+
+xx Subida a producción del detalle del .nuget con uipath, (archivos temporales de un proceso)
+
+31/03/23
+
+Revisando todos los procesos de BME por un cambio en la credencial y la forma de hacer login (con pequeñas modificaciones en la web). Reviso todos los procesos como me han dicho y los actualizo para ver la semana que viene que no falle ninguno por el login o el certificado. 
+
+04/04/23
+Con esto del horario flexible y que nadie me dice nada cada vez es más costumbre entrar a y cuarto que a en punto. Además esta semana va a ser semana santa y son solo 3 días los que voy a estar en la ofi, no está adrián que está de vacaciones, tampoco Samu... yo me he pedido el lunes que es día 10 de abril jeje. 
+Cicerón había muerto y por eso están estos días por aquí. Ya funciona y el día de hoy iba a escribirlo antes de que pase para luego solo copiar pegar o modificar alguna cosilla: 
+
+He debugeado en la máquina 3 el proceso que fallaba ahí y ... 
+
+Orietanciones ninguna, Dificultades lo que me encuentre en ese debug. Comentarios: me aburro mucho y no rindo en hacer mi proyecto del insti. 
+
+CICERÓN CAÍDO  5/4/23
+Ayer nació la hija de Natalia;
+Puedes poner en el cicerón que en la maquina 2 suele dar el error de instalar el paquete y hay que entrar para solicionarlo.
+
+11/04
+-crear diseño funcional de un proceso nuevo
+-revisión BME ´página caída
+-Corrección de una fecha en formato inglés de cant asing
+-Buscar error de _IMG 

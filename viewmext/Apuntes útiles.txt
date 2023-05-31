@@ -1,0 +1,32 @@
+Instanciar array (en el default de una variable declarada con ese tipo): new string(){}
+Substring de ejemplo: Value.Substring(0,2).ToLower
+Concatenar valores en un array: AxArray.Concat({Value}).ToArray
+Mostrar por texto los strings de un array: string.Join(" ",BxArray)
+Unir dos listas: asigna a otra lista esto--> Enumerable.Concat(SpainCities.AsEnumerable, UKCities.AsEnumerable).ToLis
+ProperCase (esto para probarlo...): System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(nombreSinProcesar.ToLower)
+
+Invoke Method: lista de métodos que puedes usar ahí --> https://learn.microsoft.com/en-us/dotnet/api/system.string.clone?view=net-5.0
+
+Esto era para la practica del orquestador que no he terminado porque no sé como se termina:
+machine key demoDesatendido: aabb8fea-02e7-4b45-ada7-da06f46242e0
+client secret: hQRegMCMx8T3H8uc
+
+---Fechas---
+Today.AddMonths(MonthToAdd).ToString("dd/MM/yyyy")  --> usamos la variable MonthToAdd para añadir -1 y así tener el mes anterior a la fecha de hoy. 
+DateTime.ParseExact(DateString, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture).Tostring("MMM") --> variando el ultimo String podemos sacar lo que nos interese "MM", "dd", "yyyy"
+Today.AddMonths(MonthToAdd).ToString("MM")    
+
+F12 para inspeccionar
+existen shortcuts para entrar en distintos elementos (con alt shift f10 entras en los tres puntitos de terna)
+
+ctlr D comentar en uipath
+
+expresion de jsonArray a datatable en un assing Pars  -el newtn hay que importarlo- Newtonsoft.Json.JsonConvert.DeserializableObject(Of DataTable)(ArrayValores.toString)
+
+Error windows Dictionary not defined --> ir al que da problemas y volver a cambiarle los "String" "object" ect
+
+{"Fecha: "+lastDownloadDate.ToString("dd/MMM/yyyy", new CultureInfo("es-ES")).Replace(".","")}
+
+BUSCAR ELEMENTO EN INSPECCIONAR: dentro de la consola del inspeccionar
+despues de '# (id)'.css ...
+$('#ContentPlaceHolder1_ddlReporte').css("background-color", "red")

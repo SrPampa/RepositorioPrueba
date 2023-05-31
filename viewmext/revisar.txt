@@ -1,0 +1,87 @@
+config.json original:
+\\gemay-dt\RPA\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\Data\Input\Config.json
+
+{
+	"LOG_FIELD_NAMEPROCESS": "RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG",
+	"MAX_SYSTEM_EXCEPTIONS": "3",
+	
+	"CARPETA_DESCARGAS": "C:\\Users\\S002019\\Downloads",
+	"CARPETA_TEMP": "\\\\gemay-dt\\RPA\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Temp",
+	
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_DISTMDA": "\\\\gemay-dt\\LP\\Descarga PMLs\\{0} PNDs",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_DISTMTR": "\\\\gemay-dt\\LP\\Descarga PMLs\\{0} PNDs - MTR",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_LMDA": "\\\\gemay-dt\\LP\\Descarga PMLs\\{0} PMLs",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_LMTR": "\\\\gemay-dt\\LP\\Descarga PMLs\\{0} PMLs - MTR",
+	
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_MTR": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/PreEnerServConMTR.aspx",
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_MDA": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/PreEnerServConMDA.aspx",
+	"Path_excel": "\\\\gemay-dt\\RPA\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Excel\\Descargas ME Mexico Precios de la energia.xlsx",	
+	"MAIL_USER": "serviciorpagem@iberdrola.es",
+	"DESTINATARIOS_MAIL": "soporte_rpa_up_iberdrola@viewnext.com",
+	"REPORT_BODY_KO": "El proceso ha detectado alguna excepción durante el proceso",
+	"REPORT_BODY_OK": "Proceso terminado con éxito "
+}
+
+
+config.json mi local: C:\Users\6002291\Desktop\Viewnext\Revisar\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\Input\Config.json
+
+{
+	"LOG_FIELD_NAMEPROCESS": "RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG",
+	"MAX_SYSTEM_EXCEPTIONS": "3",
+	
+	"CARPETA_DESCARGAS": "C:\\Users\\6002291\\Downloads",
+	"CARPETA_TEMP": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Temp",
+
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_DISTMDA": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Output\\Descarga PMLs\\{0} PNDs",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_DISTMTR": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Output\\Descarga PMLs\\{0} PNDs - MTR",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_LMDA": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Output\\Descarga PMLs\\{0} PMLs",
+	"A_PATH_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_LMTR": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Data\\Output\\Descarga PMLs\\{0} PMLs - MTR",
+	
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_MTR": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/PreEnerServConMTR.aspx",
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_PRECENERG_MDA": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/PreEnerServConMDA.aspx",
+	"Path_excel": "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_PRECIOS\\Excel\\Descargas ME Mexico Precios de la energia.xlsx",	
+	"MAIL_USER": "raul.garcia@viewnext.com",
+	"DESTINATARIOS_MAIL": "raul.garcia@viewnext.com",
+	"REPORT_BODY_KO": "El proceso ha detectado alguna excepción durante el proceso",
+	"REPORT_BODY_OK": "Proceso terminado con éxito "
+}
+
+--------------------------------cantidades asignadas--------------------------
+LOCAL:
+"C:\Users\6002291\Desktop\Viewnext\Revisar\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\Data\Input\Config.json"
+
+{
+	"LOG_FIELD_NAMEPROCESS": "RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG",
+	"MAX_SYSTEM_EXCEPTIONS": "3",
+	
+	"CARPETA_SALIDA_ZONCAR" : "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\\Data\\Output\\Por zona de carga\\{0} Demands",
+	"CARPETA_SALIDA_PARMERC" : "C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\\Data\\Output\\Por participante de mercado\\{0}",
+	"CARPETA_DESCARGAS" : "C:\\Users\\6002291\\Downloads",
+	
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/ResultadosMDA.aspx",
+	"Path_excel":"C:\\Users\\6002291\\Desktop\\Viewnext\\Revisar\\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\\Excel\\Descargas ME Mexico Cantidades Asignadas.xlsx",	
+	"MAIL_USER": "-",
+	"DESTINATARIOS_MAIL": "-",
+	"REPORT_BODY_KO": "El proceso ha detectado alguna excepción durante el proceso",
+	"REPORT_BODY_OK": "Proceso terminado con éxito "
+}
+
+ORIGINAL
+
+"\\gemay-dt\RPA\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\Data\Input\Config.json"
+
+{
+	"LOG_FIELD_NAMEPROCESS": "RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG",
+	"MAX_SYSTEM_EXCEPTIONS": "3",
+	
+	"CARPETA_SALIDA_ZONCAR" : "\\\\gemay-dt\\LP\\Descarga Cantidades Asignadas\\Por zona de carga\\{0} Demands",
+	"CARPETA_SALIDA_PARMERC" : "\\\\gemay-dt\\LP\\Descarga Cantidades Asignadas\\Por participante de mercado\\{0}",
+	"CARPETA_DESCARGAS" : "C:\\Users\\S002019\\Downloads",
+	
+	"A_URL_IBERDROLA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG": "https://www.cenace.gob.mx/Paginas/SIM/Reportes/ResultadosMDA.aspx",
+	"Path_excel":"\\\\gemay-dt\\RPA\\RPA_DESCARGA_FICHEROS_ME_MEXICO_CANTASIG\\Excel\\Descargas ME Mexico Cantidades Asignadas.xlsx",	
+	"MAIL_USER": "serviciorpagem@iberdrola.es",
+	"DESTINATARIOS_MAIL": "soporte_rpa_up_iberdrola@viewnext.com",
+	"REPORT_BODY_KO": "El proceso ha detectado alguna excepción durante el proceso",
+	"REPORT_BODY_OK": "Proceso terminado con éxito "
+}

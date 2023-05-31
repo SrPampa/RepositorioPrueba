@@ -1,0 +1,45 @@
+dentro: Tzbjmugdkm_8126
+fuera: Qpiywdfaan_3424
+
+evalue.iic.uam.es: Qpiywdfaan3424*
+
+office: Ufnjeocapy_5133
+
+Salamanca_viewnext_2023 Salamanca_Viewnext_2023
+passNominas26
+
+enlace a UiPath https://academy.uipath.com/learning-plans/uipath-rpa-associate-certification-training
+
+zs:
+N0MGtrbjSqhc35Cs
+
+Pulse (asignada por Raúl Manzano Ufarte):
+Martes.02.Primavera
+
+usuario iber: E915875 // ++:81u7Zx,
+3stA3sL4nwPswD1Ber*
+
+serviciorpagem@iberdrola.es
+pass Gesen2019_
+orquestador home shared automations jobs 
+
+carpeta compartida en la vdi de iberdrola
+\\CLBILANAS05\DESA_ARPA
+
+escritorio remoro --> 172.20.178.100 VMDSESRPA1 desarrollo 
+	172.20.178.116 VMPRESRPA1
+	172.20.178.117 VMPRESRPA2
+	172.20.178.118 VMPRESRPA3
+	CUENTA SERVICIO: GESEN\S002019
+	pass gesen2019
+
+true office: tru30FFice*
+company id 800670
+
+apalmero@iberdrola.es
+
+cicerón:
+pin 538238421
+pinpassword: B82hVccA
+
+uipath user acount de r.g@viewnext: Uipath@viewnext1
